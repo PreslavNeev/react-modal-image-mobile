@@ -44,7 +44,7 @@ export default class Lightbox extends Component {
   };
 
   handleMouseDownOrTouchStart = event => {
-    event.preventDefault();
+    //event.preventDefault();
 
     if (event.touches && event.touches.length > 1) {
       // more than one finger, ignored
