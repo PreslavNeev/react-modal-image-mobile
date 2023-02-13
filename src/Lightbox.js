@@ -119,7 +119,7 @@ export default class Lightbox extends Component {
   };
 
   toggleRotate = event => {
-    event.preventDefault();
+    //event.preventDefault(); // trying to make it work on mobile
 
     const { rotationDeg } = this.state;
 
